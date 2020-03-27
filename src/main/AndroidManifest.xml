@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.common">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application>
+        <activity android:name=".AddAssignmentActivity"></activity>
+        <activity
+            android:name=".AddClassActivity"
+            android:label="Create Class">
+            <intent-filter>
+                <action android:name="com.example.schoolteacher.ClassActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".HomeScreen"
+            android:label="Classes">
+        </activity>
+
+        <activity android:name=".EditActivity"
+            android:label="Edit Class"
+            android:parentActivityName=".HomeScreen">
+
+        </activity>
+
+
+    </application>
+
+</manifest>

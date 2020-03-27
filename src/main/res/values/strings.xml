@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="moderate_all_posts_and_replies">Moderate all posts and replies</string>
+    <string name="off">Off</string>
+    <string name="on">On</string>
+    <string name="hide_all_post_from_parents">Hide all post from parents</string>
+    <string name="create_class">Create Class</string>
+    <string name="options">Options</string>
+    <string name="grade">Grade</string>
+    <string name="subject_area">Subject Area:</string>
+    <string name="name">Name:</string>
+    <string name="classs">Class</string>
+    <string name="title">Title</string>
+    <string name="type_here">Type here...</string>
+    <string name="assign_to">Assign to</string>
+    <string name="lock_after_due_date">Lock After Due Date</string>
+    <string name="schedule">Schedule</string>
+    <string name="send_now">Send Now</string>
+    <string name="instructions">Instructions</string>
+    <string name="add_attachment">Add attachment</string>
+    <string name="create_assignment">Create Assignment</string>
+    <string name="due_date">Due Date</string>
+    <string-array name="areas">
+        <item>All</item>
+        <item>Language</item>
+        <item>Mathematics</item>
+        <item>Science</item>
+        <item>Social Studies</item>
+        <item>Health and Physical Education</item>
+        <item>Creative Arts</item>
+        <item>World Languages</item>
+        <item>Professional Development</item>
+        <item>Special Education</item>
+    </string-array>
+</resources>
